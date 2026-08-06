@@ -1,6 +1,47 @@
+```gitignore
+# Byte-compiled / optimized files
 __pycache__/
-*.pyc
-.env
+*.py[cod]
+*$py.class
+
+# Virtual Environment
 venv/
-.idea/
+.env/
+.env.*
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+
+# Logs
 *.log
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+
+# Docker
+*.pid
+```
+
+```
+```
