@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     #global_app
     'accounts.apps.AccountsConfig',
+    'social.apps.SocialConfig',
 ]
 
 MIDDLEWARE = [
