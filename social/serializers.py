@@ -11,7 +11,7 @@ class CommentSerializer(serializers.ModelSerializer):
 
 
 class LikeSerializer(serializers.ModelSerializer):
-    user_username = serializers.CharField(source='author.username', read_only=True)
+    user_username = serializers.CharField(source='user.username', read_only=True)
     class Meta:
         model = Like
         fields = ['id', 'post', 'user', 'user_username', 'created_at']
